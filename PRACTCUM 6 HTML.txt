@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meridian Diagnostics – Medical Tests &amp; Bookings</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:wght@500;700&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== HEADER / NAVIGATION ===== -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#home" class="brand">Meridian Diagnostics</a>
+      <nav class="main-nav" aria-label="Main menu">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="#tests" class="nav-link">Tests</a></li>
+          <li class="nav-item"><a href="#packages" class="nav-link">Packages</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+          <li class="nav-item"><a href="#booking" class="nav-link nav-cta">Book a test</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="home">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h1>Accurate test results, without the long wait.</h1>
+          <p>Blood tests, scans and health check-ups under one roof. Book online, visit at your slot, and get reports the same day.</p>
+          <a href="#booking" class="btn btn-primary">Book a test</a>
+          <a href="#tests" class="btn btn-outline">View all tests</a>
+        </div>
+        <aside class="hero-facts">
+          <h2>Open every day</h2>
+          <p>6:30 AM – 8:00 PM</p>
+          <p>Home sample collection available</p>
+          <p>Fasting tests: before 10 AM</p>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ===== TESTS ===== -->
+    <section class="section" id="tests">
+      <div class="container">
+        <h2 class="section-title">Available medical tests</h2>
+        <p class="section-intro">Choose a test to see what it covers and how to prepare.</p>
+
+        <div class="card-grid">
+          <article class="card">
+            <span class="badge">Popular</span>
+            <h3>Complete Blood Count (CBC)</h3>
+            <p>Checks red cells, white cells and platelets. Useful for infections, anaemia and general health.</p>
+            <p class="meta">Report: 6 hours &nbsp;|&nbsp; No fasting</p>
+            <p class="price">₹350</p>
+            <a href="#booking" class="btn btn-small">Book this test</a>
+          </article>
+
+          <article class="card">
+            <span class="badge badge-alt">Fasting needed</span>
+            <h3>Lipid Profile</h3>
+            <p>Measures cholesterol and triglycerides to assess heart health.</p>
+            <p class="meta">Report: 8 hours &nbsp;|&nbsp; Fasting 10–12 hrs</p>
+            <p class="price">₹550</p>
+            <a href="#booking" class="btn btn-small">Book this test</a>
+          </article>
+
+          <article class="card">
+            <h3>HbA1c (Diabetes)</h3>
+            <p>Shows your average blood sugar over the last three months.</p>
+            <p class="meta">Report: 6 hours &nbsp;|&nbsp; No fasting</p>
+            <p class="price">₹450</p>
+            <a href="#booking" class="btn btn-small">Book this test</a>
+          </article>
+
+          <article class="card">
+            <h3>Thyroid Profile (T3, T4, TSH)</h3>
+            <p>Evaluates how well your thyroid gland is working.</p>
+            <p class="meta">Report: 12 hours &nbsp;|&nbsp; No fasting</p>
+            <p class="price">₹600</p>
+            <a href="#booking" class="btn btn-small">Book this test</a>
+          </article>
+
+          <article class="card">
+            <h3>Liver Function Test</h3>
+            <p>Checks liver enzymes and proteins to detect liver problems early.</p>
+            <p class="meta">Report: 8 hours &nbsp;|&nbsp; Fasting 8 hrs</p>
+            <p class="price">₹700</p>
+            <a href="#booking" class="btn btn-small">Book this test</a>
+          </article>
+
+          <article class="card">
+            <h3>Chest X-Ray</h3>
+            <p>Digital imaging of the lungs and heart. Takes about 10 minutes.</p>
+            <p class="meta">Report: 2 hours &nbsp;|&nbsp; Walk-in</p>
+            <p class="price">₹400</p>
+            <a href="#booking" class="btn btn-small">Book this test</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PACKAGES ===== -->
+    <section class="section section-tint" id="packages">
+      <div class="container">
+        <h2 class="section-title">Health check-up packages</h2>
+        <div class="card-grid two-col">
+          <article class="card card-feature">
+            <h3>Basic Health Check</h3>
+            <p>CBC, blood sugar, lipid profile, urine routine.</p>
+            <p class="price">₹999</p>
+          </article>
+          <article class="card card-feature">
+            <h3>Full Body Check</h3>
+            <p>60+ tests including thyroid, liver, kidney, vitamin D and B12.</p>
+            <p class="price">₹2,499</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== BOOKING FORM ===== -->
+    <section class="section" id="booking">
+      <div class="container booking-wrap">
+        <div class="booking-info">
+          <h2 class="section-title">Book your test</h2>
+          <p>Fill in the form and we will confirm your slot by phone within 30 minutes.</p>
+          <ul class="info-list">
+            <li>Carry a photo ID and any doctor's prescription.</li>
+            <li>Reports are sent by email and WhatsApp.</li>
+            <li>Free cancellation up to 2 hours before your slot.</li>
+          </ul>
+        </div>
+
+        <form class="booking-form" action="#" method="post">
+          <label for="name">Full name</label>
+          <input type="text" id="name" name="name" required>
+
+          <label for="phone">Mobile number</label>
+          <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required>
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email">
+
+          <label for="test">Test or package</label>
+          <select id="test" name="test" required>
+            <option value="">Select a test</option>
+            <option>Complete Blood Count (CBC)</option>
+            <option>Lipid Profile</option>
+            <option>HbA1c (Diabetes)</option>
+            <option>Thyroid Profile</option>
+            <option>Liver Function Test</option>
+            <option>Chest X-Ray</option>
+            <option>Basic Health Check</option>
+            <option>Full Body Check</option>
+          </select>
+
+          <div class="form-row">
+            <div>
+              <label for="date">Preferred date</label>
+              <input type="date" id="date" name="date" required>
+            </div>
+            <div>
+              <label for="time">Preferred time</label>
+              <select id="time" name="time">
+                <option>Morning (6:30 – 10:00)</option>
+                <option>Midday (10:00 – 14:00)</option>
+                <option>Evening (14:00 – 20:00)</option>
+              </select>
+            </div>
+          </div>
+
+          <label for="notes">Notes (optional)</label>
+          <textarea id="notes" name="notes" rows="3" placeholder="Home collection address, doctor's name, etc."></textarea>
+
+          <button type="submit" class="btn btn-primary btn-block">Confirm booking</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer" id="contact">
+    <div class="container footer-inner">
+      <div>
+        <h3>Meridian Diagnostics</h3>
+        <p>12, Race Course Road, Coimbatore</p>
+      </div>
+      <div>
+        <h3>Contact</h3>
+        <p>Phone: 0422 000 0000</p>
+        <p>Email: care@meridiandiagnostics.example</p>
+      </div>
+      <div>
+        <h3>Hours</h3>
+        <p>Mon – Sun: 6:30 AM – 8:00 PM</p>
+      </div>
+    </div>
+    <p class="copyright">© 2026 Meridian Diagnostics. All rights reserved.</p>
+  </footer>
+
+  <!-- Fixed button: stays on screen while the page scrolls -->
+  <a href="tel:04220000000" class="fab-call" aria-label="Call Meridian Diagnostics">Call to book</a>
+
+</body>
+</html>
+/* =====================================================
+   Meridian Diagnostics – style.css
+   Topics covered (search the comment tags):
+   [FONT] [ALIGN] [COLOR] [BG] [BORDER] [SPACING]
+   [BOXMODEL] [SIZE] [POSITION] [LAYOUT] [HOVER]
+   ===================================================== */
+
+/* ---------- Colour variables [COLOR] ---------- */
+:root {
+  --ink: #12263a;        /* main text, headings */
+  --teal: #0f7c7a;       /* primary brand colour */
+  --teal-dark: #0a5c5a;  /* hover state */
+  --mint: #e3f2ef;       /* light section background */
+  --saffron: #e8a33d;    /* badge / highlight */
+  --paper: #fafbfa;      /* page background */
+  --line: #cfdcd9;       /* borders */
+  --white: #ffffff;
+}
+
+/* ---------- Reset + BOX MODEL [BOXMODEL] ----------
+   border-box makes width include padding and border,
+   so elements never grow bigger than the width we set. */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* ---------- Base typography [FONT] [ALIGN] ---------- */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;      /* keeps headings visible below sticky header */
+}
+
+body {
+  font-family: "Public Sans", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--ink);
+  background-color: var(--paper);   /* [BG] */
+  text-align: left;                 /* [ALIGN] */
+}
+
+h1, h2, h3 {
+  font-family: "Newsreader", Georgia, serif;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+}
+
+h1 { font-size: 3rem; margin-bottom: 1rem; }
+h2 { font-size: 2rem; }
+h3 { font-size: 1.25rem; margin-bottom: 0.5rem; }
+
+p  { margin-bottom: 0.75rem; }
+ul { list-style: none; }
+a  { color: inherit; text-decoration: none; }
+
+/* ---------- Reusable container [SIZE] ---------- */
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;              /* centres the block [SPACING] */
+}
+
+/* ---------- Header [POSITION] ----------
+   position: sticky keeps the header at the top while scrolling. */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: var(--white);
+  border-bottom: 1px solid var(--line);   /* [BORDER] */
+}
+
+/* =====================================================
+   FLEXBOX NAVIGATION MENU
+   ===================================================== */
+
+/* Outer bar: brand on the left, menu on the right */
+.header-inner {
+  display: flex;                          /* display: flex */
+  flex-direction: row;                    /* flex-direction: items side by side */
+  justify-content: space-between;         /* justify-content: brand left, menu right */
+  align-items: center;                    /* align-items: vertically centred */
+  flex-wrap: wrap;                        /* flex-wrap: allow wrapping on narrow screens */
+  gap: 12px 24px;                         /* gap: row gap, column gap */
+  min-height: 70px;
+  padding: 8px 0;
+}
+
+.brand {
+  font-family: "Newsreader", Georgia, serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--teal);
+}
+
+/* Menu list: a second flex container nested inside the first */
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;              /* links packed to the right */
+  align-items: center;
+  flex-wrap: wrap;                        /* links move to next line if no space */
+  gap: 8px;
+}
+
+/* Navigation links */
+.nav-link {
+  display: block;
+  padding: 8px 14px;                      /* [SPACING] */
+  border-radius: 6px;
+  font-weight: 500;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.nav-link:hover {                         /* [HOVER] */
+  background-color: var(--mint);
+  color: var(--teal-dark);
+}
+
+/* Highlighted booking link */
+.nav-cta {
+  background-color: var(--teal);
+  color: var(--white);
+  font-weight: 600;
+}
+
+.nav-cta:hover {
+  background-color: var(--teal-dark);
+  color: var(--white);
+}
+
+/* ---------- Hero ---------- */
+.hero {
+  background-color: var(--mint);
+  padding: 80px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.hero-inner {
+  display: grid;                          /* [LAYOUT] */
+  grid-template-columns: 2fr 1fr;
+  gap: 48px;
+  align-items: center;
+}
+
+.hero-text p {
+  font-size: 1.15rem;
+  max-width: 55ch;
+  margin-bottom: 1.5rem;
+}
+
+/* Side card with CSS positioning [POSITION] */
+.hero-facts {
+  position: relative;
+  background-color: var(--white);
+  border: 2px solid var(--teal);
+  border-radius: 12px;
+  padding: 28px 24px 16px;
+}
+
+.hero-facts::before {
+  content: "";
+  position: absolute;                     /* positioned inside .hero-facts */
+  top: 0;
+  left: 24px;
+  width: 60px;
+  height: 6px;
+  background-color: var(--saffron);
+}
+
+.hero-facts h2 {
+  font-size: 1.4rem;
+  margin-bottom: 0.75rem;
+}
+
+/* ---------- Buttons [HOVER] ---------- */
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  border: 2px solid var(--teal);
+  border-radius: 8px;
+  font-weight: 600;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s, transform 0.2s;
+}
+
+.btn-primary {
+  background-color: var(--teal);
+  color: var(--white);
+  margin-right: 10px;
+}
+
+.btn-primary:hover {
+  background-color: var(--teal-dark);
+  border-color: var(--teal-dark);
+  transform: translateY(-2px);
+}
+
+.btn-outline {
+  background-color: transparent;
+  color: var(--teal);
+}
+
+.btn-outline:hover {
+  background-color: var(--teal);
+  color: var(--white);
+}
+
+.btn-small {
+  padding: 8px 16px;
+  font-size: 0.9rem;
+  background-color: var(--white);
+  color: var(--teal);
+}
+
+.btn-small:hover {
+  background-color: var(--teal);
+  color: var(--white);
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+  margin-top: 8px;
+  margin-right: 0;
+}
+
+/* ---------- Sections ---------- */
+.section {
+  padding: 72px 0;
+}
+
+.section-tint {
+  background-color: var(--mint);
+}
+
+.section-title {
+  margin-bottom: 0.5rem;
+}
+
+.section-intro {
+  margin-bottom: 32px;
+}
+
+/* ---------- Card grid [LAYOUT] ---------- */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 24px;
+  margin-top: 28px;
+}
+
+.card-grid.two-col {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+/* ---------- Cards [BOXMODEL] [BORDER] [HOVER] ----------
+   Content + padding + border + margin = the box model. */
+.card {
+  position: relative;                      /* so the badge can sit in the corner */
+  display: flex;
+  flex-direction: column;
+  min-height: 260px;                       /* [SIZE] */
+  padding: 24px;                           /* space inside the border */
+  background-color: var(--white);
+  border: 1px solid var(--line);           /* the border itself */
+  border-left: 5px solid var(--teal);
+  border-radius: 10px;
+  transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  border-left-color: var(--saffron);
+  box-shadow: 0 10px 24px rgba(18, 38, 58, 0.12);
+}
+
+.card p {
+  flex-grow: 1;                            /* pushes price + button to the bottom */
+}
+
+.card .meta {
+  flex-grow: 0;
+  font-size: 0.85rem;
+  color: #4d6272;
+  padding-top: 10px;
+  border-top: 1px dashed var(--line);
+}
+
+.price {
+  flex-grow: 0;
+  font-family: "Newsreader", Georgia, serif;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--teal);
+  margin: 6px 0 12px;
+}
+
+.card-feature {
+  min-height: 0;
+  text-align: center;                      /* [ALIGN] */
+  border-left: 1px solid var(--line);
+  border-top: 5px solid var(--teal);
+}
+
+.card-feature:hover {
+  border-left-color: var(--line);
+  border-top-color: var(--saffron);
+}
+
+/* Badge positioned in card corner [POSITION] */
+.badge {
+  position: absolute;
+  top: -10px;
+  right: 16px;
+  padding: 3px 12px;
+  background-color: var(--saffron);
+  color: var(--ink);
+  font-size: 0.8rem;
+  font-weight: 600;
+  border-radius: 20px;
+}
+
+/* ---------- Booking section ---------- */
+.booking-wrap {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 48px;
+  align-items: start;
+}
+
+.info-list {
+  margin-top: 20px;
+}
+
+.info-list li {
+  padding: 12px 0 12px 20px;
+  border-bottom: 1px solid var(--line);
+  position: relative;
+}
+
+.info-list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 22px;
+  width: 8px;
+  height: 8px;
+  background-color: var(--teal);
+  border-radius: 50%;
+}
+
+.booking-form {
+  padding: 32px;
+  background-color: var(--white);
+  border: 1px solid var(--line);
+  border-top: 6px solid var(--teal);
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(18, 38, 58, 0.08);
+}
+
+.booking-form label {
+  display: block;
+  margin: 14px 0 6px;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.booking-form input,
+.booking-form select,
+.booking-form textarea {
+  width: 100%;
+  padding: 10px 12px;
+  font-family: inherit;
+  font-size: 1rem;
+  color: var(--ink);
+  background-color: var(--paper);
+  border: 1px solid #9db3ae;
+  border-radius: 6px;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.booking-form input:hover,
+.booking-form select:hover,
+.booking-form textarea:hover {
+  border-color: var(--teal);
+}
+
+.booking-form input:focus,
+.booking-form select:focus,
+.booking-form textarea:focus {
+  outline: none;
+  border-color: var(--teal);
+  box-shadow: 0 0 0 3px rgba(15, 124, 122, 0.25);
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+/* ---------- Footer ---------- */
+.site-footer {
+  background-color: var(--ink);
+  color: #d5e0e6;
+  padding-top: 48px;
+}
+
+.footer-inner {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+  padding-bottom: 32px;
+}
+
+.site-footer h3 {
+  color: var(--white);
+  font-size: 1.1rem;
+}
+
+.copyright {
+  padding: 16px 0;
+  margin: 0;
+  text-align: center;                      /* [ALIGN] */
+  font-size: 0.85rem;
+  border-top: 1px solid #2c4258;
+}
+
+/* ---------- Responsive layout ---------- */
+@media (max-width: 800px) {
+  h1 { font-size: 2.2rem; }
+
+  /* Tablet: brand on top, menu centred underneath */
+  .header-inner { flex-direction: column; justify-content: center; }
+  .nav-list     { justify-content: center; }
+
+  .hero-inner,
+  .booking-wrap,
+  .footer-inner,
+  .card-grid.two-col,
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+
+  .hero    { padding: 48px 0; }
+  .section { padding: 48px 0; }
+}
+
+/* Phone: menu items stack in a single column, full width */
+@media (max-width: 480px) {
+  .main-nav,
+  .nav-list {
+    width: 100%;
+  }
+
+  .nav-list {
+    flex-direction: column;     /* flex-direction changes from row to column */
+    align-items: stretch;       /* every link fills the full width */
+    gap: 4px;
+  }
+
+  .nav-link {
+    text-align: center;
+    border: 1px solid var(--line);
+  }
+}
+
+/* =====================================================
+   CSS POSITIONING TECHNIQUES
+   1. static   2. relative   3. absolute   4. fixed   5. sticky
+   ===================================================== */
+
+/* 1. STATIC – the default for every element.
+   Elements follow the normal document flow; top/left/z-index have no effect. */
+.hero-text,
+.section-intro,
+.info-list {
+  position: static;
+}
+
+/* 2. RELATIVE – the element stays in the flow but can be nudged
+   from its normal place. It also becomes the reference box for
+   absolutely positioned children (badge, accent line). */
+.hero-facts {
+  position: relative;
+  top: -6px;                /* lifted 6px; the space it originally took is kept */
+}
+
+.card {
+  position: relative;       /* reference box for .badge */
+}
+
+/* 3. ABSOLUTE – removed from the flow and placed against the nearest
+   positioned parent (the .card). Used for the corner labels. */
+.badge {
+  position: absolute;
+  top: -10px;
+  right: 16px;
+}
+
+.badge-alt {
+  background-color: var(--ink);
+  color: var(--white);
+}
+
+/* 4. FIXED – placed against the browser window, so it stays in view
+   while the page scrolls. Used for the "Call to book" button. */
+.fab-call {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 200;             /* keeps it above cards and the header */
+  padding: 14px 22px;
+  background-color: var(--saffron);
+  color: var(--ink);
+  font-weight: 600;
+  border-radius: 40px;
+  box-shadow: 0 6px 18px rgba(18, 38, 58, 0.3);
+  transition: background-color 0.2s, transform 0.2s;
+}
+
+.fab-call:hover {
+  background-color: #f0b455;
+  transform: translateY(-3px);
+}
+
+/* 5. STICKY – scrolls normally, then sticks at the given offset.
+   The header sticks to the top of the window (see .site-header).
+   The booking details also stay visible next to the long form. */
+.booking-info {
+  position: sticky;
+  top: 90px;                /* just below the 70px sticky header */
+}
+
+/* Sticky only helps side-by-side layouts, so turn it off on small screens */
+@media (max-width: 800px) {
+  .booking-info {
+    position: static;
+  }
+
+  .fab-call {
+    right: 12px;
+    bottom: 12px;
+    padding: 12px 18px;
+  }
+}
